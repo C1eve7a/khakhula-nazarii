@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+   <!--=============== SWIPER CSS ===============-->
+   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="./assets/css/men.css">
+
+   <title>Women</title>
+</head>
+<body>
+     <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="./index.html" class="nav__logo">
+            <img src="assets/img/logo.svg" alt="image">
+         </a>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="./men.html" class="nav__link">Men</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="./women.html" class="nav__link active">Women</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="./photo.html" class="nav__link">Photos</a>
+               </li>
+
+               <li class="nav__item">
+                  <a href="#" class="nav__link nav__button">Contact</a>
+               </li>
+
+                <!--=============== CONTACT FORM ===============-->
+                  <div class="form__contact">
+                     <form action="submit_form.php" method="post" class="form">
+                        <div class="form-svg">
+                           <svg class="svg__close" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M8.00386 9.41816C7.61333 9.02763 7.61334 8.39447 8.00386 8.00395C8.39438 7.61342 9.02755 7.61342 9.41807 8.00395L12.0057 10.5916L14.5907 8.00657C14.9813 7.61605 15.6144 7.61605 16.0049 8.00657C16.3955 8.3971 16.3955 9.03026 16.0049 9.42079L13.4199 12.0058L16.0039 14.5897C16.3944 14.9803 16.3944 15.6134 16.0039 16.0039C15.6133 16.3945 14.9802 16.3945 14.5896 16.0039L12.0057 13.42L9.42097 16.0048C9.03045 16.3953 8.39728 16.3953 8.00676 16.0048C7.61624 15.6142 7.61624 14.9811 8.00676 14.5905L10.5915 12.0058L8.00386 9.41816Z" fill="#0F0F0F"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12ZM3.00683 12C3.00683 16.9668 7.03321 20.9932 12 20.9932C16.9668 20.9932 20.9932 16.9668 20.9932 12C20.9932 7.03321 16.9668 3.00683 12 3.00683C7.03321 3.00683 3.00683 7.03321 3.00683 12Z" fill="#0F0F0F"></path> </g></svg>
+                        </div>
+
+                        <h2 class="form-name">Get Feedback</h2>
+                        
+                        <div class="form_container">
+                           <!-- Name -->
+                           <div class="text-field text-field_floating-3">
+                              <input
+                              class="text-field__input"
+                              type="name"
+                              id="name"
+                              name="name"
+                              placeholder="імʼя"
+                              />
+                              <label class="text-field__label" for="name"
+                              >Ваше Імʼя</label
+                              >
+                           </div>
+                           <!-- Surname -->
+                           <div class="text-field text-field_floating-3">
+                              <input
+                              class="text-field__input"
+                              type="surname"
+                              id="name"
+                              name="surname"
+                              placeholder="прізвище"
+                              />
+                              <label class="text-field__label" for="surname"
+                              >Ваше прізвище</label
+                              >
+                           </div>
+                           <div class="text-field text-field_floating-3">
+                              <input
+                              class="text-field__input"
+                              type="tel"
+                              id="name"
+                              name="tel"
+                              placeholder="номер тел"
+                              />
+                              <label class="text-field__label" for="tel"
+                              >Номер тел</label
+                              >
+                           </div>
+                           <!-- checkbox -->
+                           <div id="form-checkbox">
+                              <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault"
+                              />
+                              <label class="form-check-label" for="flexCheckDefault"
+                              >Я даю згоду на обробку<br />
+                              <span>персональних даних</span></label
+                              >
+                           </div>
+
+                           <!-- submit -->
+                           <input
+                              type="submit"
+                              id="form__btn"
+                              value="Відправити заяку"
+                           />
+                        </div>
+                    </form>
+                  </div>
+            </ul>
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+         <!--Toggle button-->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-fill"></i>
+         </div>
+      </nav>
+
+   </header>
+
+   
+
+   <div class="container-shoes">
+      <h2 class="shoes-caption">Women's Sneakers & Shoes</h2>
+
+      <section class="shoes">
+         <div class="snoes-item">
+            <div class="shoes-img">
+               <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/57645e9b-581c-4e5f-9b07-783d2e4682db/air-max-1-womens-shoes-0vW0ds.png">
+            </div>
+
+            <p class="caption">Just in</p>
+            <p class="shoes-name">Nike Air Max 1</p>
+            <p class="shoes-type">Women's Workout Shoes</p>
+            <p class="shoes-color">1 color</p>
+
+            <p class="cost">$140</p>
+         </div>
+
+         <div class="snoes-item">
+            <div class="shoes-img">
+               <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/84364ded-9226-494d-bb38-39c2965ea0df/free-metcon-5-womens-workout-shoes-h4Zl5h.png">
+            </div>
+
+            <p class="caption">Just in</p>
+            <p class="shoes-name">Nike Free Metcon 5</p>
+            <p class="shoes-type">Women's Workout Shoes</p>
+            <p class="shoes-color">7 color</p>
+
+            <p class="cost">$120</p>
+         </div>
+
+         <div class="snoes-item">
+            <div class="shoes-img">
+               <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b964945d-59ad-4887-a3a5-302735e5bac9/metcon-9-womens-workout-shoes-xMlsHx.png">
+            </div>
+
+            <p class="caption">Just in</p>
+            <p class="shoes-name">Nike Metcon 9</p>
+            <p class="shoes-type">Women's Workout Shoes</p>
+            <p class="shoes-color">10 color</p>
+
+            <p class="cost">$140</p>
+         </div>
+
+         <div class="snoes-item">
+            <div class="shoes-img">
+               <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3bdcf8a1-b301-4444-8dfd-92601bbf42ac/blazer-mid-77-womens-shoes-NPWfjm.png">
+            </div>
+
+            <p class="caption">Just in</p>
+            <p class="shoes-name">Nike Blazer Mid '77</p>
+            <p class="shoes-type">Women's Workout Shoes</p>
+            <p class="shoes-color">4 color</p>
+
+            <p class="cost">$105</p>
+         </div>
+
+         <div class="snoes-item">
+            <div class="shoes-img">
+               <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5804adcd-94a4-41f6-b29b-509a07e86d47/blazer-low-77-womens-shoes-01lVDq.png">
+            </div>
+
+            <p class="caption">Just in</p>
+            <p class="shoes-name">Nike Blazer Low '77</p>
+            <p class="shoes-type">Women's Workout Shoes</p>
+            <p class="shoes-color">1 color</p>
+
+            <p class="cost">$90</p>
+         </div>
+
+         <div class="snoes-item">
+            <div class="shoes-img">
+               <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f29bb86f-9b49-4dee-b7c0-b02ef8afd37b/pegasus-40-womens-road-running-shoes-L80k6C.png">
+            </div>
+
+            <p class="caption">Just in</p>
+            <p class="shoes-name">Nike Pegasus 40</p>
+            <p class="shoes-type">Women's Workout Shoes</p>
+            <p class="shoes-color">14 color</p>
+
+            <p class="cost">$140</p>
+         </div>
+
+         <div class="snoes-item">
+            <div class="shoes-img">
+               <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a1e4e06f-6bd6-4b63-9076-c2cf57da42f3/interact-run-womens-road-running-shoes-v5LlQl.png">
+            </div>
+
+            <p class="caption">Just in</p>
+            <p class="shoes-name">Nike Interact Run</p>
+            <p class="shoes-type">Women's Workout Shoes</p>
+            <p class="shoes-color">1 color</p>
+
+            <p class="cost">$73</p>
+         </div>
+
+         <div class="snoes-item">
+            <div class="shoes-img">
+               <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0e5723d8-15f3-4ccd-a372-c1f310140392/structure-25-womens-road-running-shoes-Zh2tPh.png">
+            </div>
+
+            <p class="caption">Just in</p>
+            <p class="shoes-name">Nike Structure 25</p>
+            <p class="shoes-type">Women's Workout Shoes</p>
+            <p class="shoes-color">1 color</p>
+
+            <p class="cost">$140</p>
+         </div>
+
+         <div class="snoes-item">
+            <div class="shoes-img">
+               <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/228c755e-cc18-4187-89e0-87faaab421e8/court-legacy-lift-womens-shoes-x0B6BB.png">
+            </div>
+
+            <p class="caption">Just in</p>
+            <p class="shoes-name">Nike Dunk Low Retro</p>
+            <p class="shoes-type">Women's Workout Shoes</p>
+            <p class="shoes-color">1 color</p>
+
+            <p class="cost">$115</p>
+         </div>
+
+         
+      </section>
+   </div>
+
+     <script src="./assets/js/men.js"></script>
+</body>
+</html>
